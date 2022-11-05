@@ -5413,7 +5413,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #ace-card {
-    position:fixed;
+    /* position:fixed; */
     box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
 }
 
