@@ -5586,8 +5586,11 @@ h1, h2, h3, h4, h5, h6 {
  * Post
  */
 .post-media {
+    margin: auto;
     position: relative;
-    margin-bottom: 3.250em;
+    margin-bottom: 3em;
+    width: 75%;
+    height: 75%;
 }
 
 .post-play,
