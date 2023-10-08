@@ -9,7 +9,7 @@ html {
 
 body {
     font-size: 16px;
-    line-height: 1.4em;
+    line-height: 1.2em;
     letter-spacing: 0.08em;
     padding: 0;
     margin: 0;
@@ -4772,11 +4772,13 @@ blockquote.quote-side:before,
  * Theme Font Families
  */
 body {
-    font-family: "Quicksand", sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Quicksand", sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
 }
 
 .ace-logo {
@@ -5040,7 +5042,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 /* Main Nav */
 #ace-main-nav {
-    font-size: 1em;
+    font-size: 1.05em;
     line-height: 1em;
 }
 
@@ -5659,7 +5661,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-header-info,
 .post-footer-info {
-    font-size: 0.813em;
+    font-size: 0.9em;
 }
 
 .post-header-info a, .post-header-info time, .post-header-info span,
@@ -6110,9 +6112,11 @@ h1, h2, h3, h4, h5, h6 {
  */
 .ref-box {
     position: relative;
-    padding-left: 70px;
-    padding-bottom: 1.875em;
-    margin-bottom: 2.5em;
+    padding-left: 75px;
+    padding-bottom: 1.2em;
+    margin-bottom: 2.0em;
+    margin-left: -2em;
+    margin-right: -2em;
     min-height: 58px;
     box-sizing: content-box;
 }
@@ -6130,8 +6134,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .ref-author strong,
 .ref-author span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: block;
-    line-height: 1.1;
+    line-height: 1.4;
     font-size: 0.875em;
 }
 
@@ -6140,7 +6145,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5px;
 }
 
+.ref-author a {
+    text-decoration:none
+}
+
 .ref-author span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #757575;
 }
 
@@ -6158,6 +6168,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     max-width: 100%;
     margin: 25px 0 0 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /**
