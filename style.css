@@ -109,7 +109,6 @@ h1, .h1 {
 h2, .h2 {
     font-size: 24px;
     margin-top: 39.6px;
-    text-transform: capitalize;
 }
 
 h3, .h3 {
@@ -4772,13 +4771,12 @@ blockquote.quote-side:before,
  * Theme Font Families
  */
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 800;
-    text-transform: capitalize;
 }
 
 .ace-logo {
@@ -6451,7 +6449,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1em;
     color: #010101;
     margin-top: 20px;
-    text-transform: capitalize;
 }
 
 .search-title:before {
