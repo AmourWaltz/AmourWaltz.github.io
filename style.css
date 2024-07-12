@@ -2619,17 +2619,24 @@ img.aligncenter {
  * Avatars
  */
 .avatar {
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 .avatar-42 {
     width: 42px;
     height: 42px;
+    border-radius: 50%;
+}
+
+.avatar-80 {
+    width: 120px;
+    height: 120px;
 }
 
 .avatar-195 {
     width: 195px;
     height: 195px;
+    border-radius: 50%;
 }
 
 /**
