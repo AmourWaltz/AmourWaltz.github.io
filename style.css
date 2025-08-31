@@ -2629,8 +2629,14 @@ img.aligncenter {
 }
 
 .avatar-80 {
-    width: 130px;
+    width: 150px;
     height: 120px;
+}
+
+.avatar-100 {
+    margin-top: 0.5em;
+    width: 140px;
+    height: 200px;
 }
 
 .avatar-195 {
@@ -6130,7 +6136,14 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     position: absolute;
+    margin-left: -1.8em;
+    margin-top: 0.2em;
 }
+
+/* .ref-avatar img {
+    width: 200px;
+    height: 200px;
+} */
 
 .ref-author {
     padding-top: 10px;
@@ -6159,6 +6172,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #757575;
 }
 
+.ref-info {
+    margin-left: 4.4em;
+}
+
 .ref-info p {
     font-size: 0.875em;
     letter-spacing: 1px;
@@ -6172,8 +6189,23 @@ h1, h2, h3, h4, h5, h6 {
     border-width: 0;
     width: 100%;
     max-width: 100%;
-    margin: 25px 0 0 0;
+    margin: 5px 0 0 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ref-keyword {
+    font-size: 1em;
+    font-weight: bold;
+    color:#707070;
+    font-style: italic;
+    line-height: 1.2em;
+    padding: 0;
+    position: relative;
+    border-width: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 5px 0 5px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 /**
